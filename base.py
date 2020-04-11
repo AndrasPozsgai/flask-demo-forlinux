@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from flask_bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap, template_folder="templates"
 
 
   app = Flask(__name__)
