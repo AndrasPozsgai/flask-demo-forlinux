@@ -7,7 +7,7 @@ from flask_bootstrap import Bootstrap, template_folder="templates"
 
 @app.route("/")
 def login
-  return (login.html)
+  return render_template (login.html)
   
  
  
