@@ -52,7 +52,9 @@ cd project
       
   
 
+# start virtualenv (terminal)
 
+      $source venv/bin/activate
 
 
 
