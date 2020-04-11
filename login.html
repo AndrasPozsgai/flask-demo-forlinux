@@ -1,2 +1,60 @@
 {% extends "bootstrap/base.html" %}
+{%block content%}
+<div class="container" id="container1">
+        <div class="row centered-form">
+            <div class="col-xs-12 col-sm-8 col-md-4 offset-sm-2 offset-md-4">
+                <div class="card ">
+                    <div class="card-header">
+                        <h3 class="card-header text-xs-center">Please Register</h3>
+                    </div>
+                    <div class="card-block">
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" name="first_name" id="first_name" class="form-control form-control-sm" placeholder="First Name">
+                            </div>
 
+                            <div class="form-group">
+                                <input type="text" name="last_name" id="last_name" class="form-control form-control-sm" placeholder="Last Name">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control form-control-sm" placeholder="Email Address">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" name="password" id="password" class="form-control form-control-sm" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" name="password_confirmation" id="password_confirmation" class="form-control form-control-sm" placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <input type="submit" value="Register" class="btn btn-info btn-block">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style>
+#container1 {
+    background-color: #e2dada;
+}
+
+.centered-form {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.centered-form .panel {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+</style>
+{%endblock%}
