@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonfy
 from flask_bootstrap import Bootstrap, template_folder="templates"
 
 
