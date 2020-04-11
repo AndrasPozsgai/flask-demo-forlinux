@@ -1,7 +1,7 @@
 #-------static-flask-demo-----------#
 
 *Short hand for Flask setup*
-# Install pyton in terminal on Linux
+# Install pyton current version  in terminal: 
       sudo apt-get install python             
       --python version                           # check python version
 # install pip
