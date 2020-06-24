@@ -1,5 +1,5 @@
 # static-flask-demo (Linux with virtualenv)
-<h2 style="color:green;">Short code lines to flask setup</h2>
+            ##Short code lines to flask setup
 # Install pyton in terminal
   sudo apt-get install python                #install python
   --python version                           # check python version
